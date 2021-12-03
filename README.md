@@ -1,7 +1,7 @@
 # Cyber War
 Cyber War
 
-©2021 - Shawn Eary – All Rights Reserved
+©2021 - Shawn Eary – CC BY-SA
 
 ## Verse1
 Nintendo was Great it was such fun
