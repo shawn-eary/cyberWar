@@ -8,10 +8,11 @@
         let gv_width = 1280;
         let gv_height = 720;
         var stripeHeight = gv_height / 13;
+        var gv_bSquareEdgeLength = stripeHeight * 7; 
         SVG.on(document, 'DOMContentLoaded', function () {
             var draw = SVG().addTo('body');
 
-            // draw blue square
+            // Make View Port for scaling
             draw.viewbox(0, 0, gv_width, gv_height);
 
             // Make sure there isn't any transparency
@@ -22,8 +23,12 @@
                 draw.rect(gv_width, stripeHeight).move(0, i*(2*stripeHeight)).fill('#f00');
             }
 
-            // Draw the place where the stars go 
-            draw.rect(gv_width / 3, gv_height / 2).move(0, 0).fill('#00f');
+            // Draw the place where the stars go
+            // (aka: The blue square)
+            draw.rect(
+                gv_bSquareEdgeLength,
+                gv_bSquareEdgeLength
+            ).move(0, 0).fill('#00f');
         })
     </script>
 </head>
