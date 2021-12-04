@@ -1,0 +1,32 @@
+<!-- https://svgjs.dev/docs/3.0/getting-started/ -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SVG.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
+    <script>
+        let gv_width = 1280;
+        let gv_height = 720;
+        var stripeHeight = gv_height / 13;
+        SVG.on(document, 'DOMContentLoaded', function () {
+            var draw = SVG().addTo('body');
+
+            // draw blue square
+            draw.viewbox(0, 0, gv_width, gv_height);
+
+            // Make sure there isn't any transparency
+            draw.rect(gv_width, gv_height).move(0, 0).fill('#fff');
+
+            // Draw the red stripes
+            for (var i = 0; i < 7; i++) {
+                draw.rect(gv_width, stripeHeight).move(0, i*(2*stripeHeight)).fill('#f00');
+            }
+
+            // Draw the place where the stars go 
+            draw.rect(gv_width / 3, gv_height / 2).move(0, 0).fill('#00f');
+        })
+    </script>
+</head>
+<body>
+</body>
+</html>
