@@ -1,10 +1,14 @@
 var gv_starStack = [];
+var gv_whiteStripeStack = [];
 
+const gc_num_white_stripes = 7;
 const gc_flip_duration = 3000; 
 const gc_flip_wait = 2000;
 const gc_red_flip = { fill: '#f00' }; 
 const gc_blue_flip = { fill: '#39f' }; 
 const gc_white_flip = { fill: '#fff' }; 
+
+const gc_wstripe_dest = { fill: '#f00' }; 
 
 function flipStar(i, d, c) {
     const dOff = d + gc_flip_duration + gc_flip_wait; 
@@ -20,7 +24,7 @@ function drawStar(dContext, x, y) {
     // https://svgjs.dev/docs/3.0/shape-elements/#svg-polygon
     // https://svgjs.dev/docs/3.0/manipulating/#scale
     const x_offset = 203;
-    const y_offset = 170;
+    const y_offset = 170;    
     var polygon = dContext.polygon(
         '16,156 154,244 101,385 241,297 ' +
         '380,385 327,244 466,156 296,156 ' +
@@ -57,10 +61,26 @@ function startAnimation(startingDivTag) {
         // Make sure there isn't any transparency
         draw.rect(gv_width, gv_height).move(0, 0).fill('#fff');
 
-        // Draw the red stripes
         var i, j;
-        for (var i = 0; i < 7; i++) {
+        // Draw the red stripes
+        for (i = 0; i < 7; i++) {
             draw.rect(gv_width, stripeHeight).move(0, i * (2 * stripeHeight)).fill('#f00');
+        }
+
+        // Draw the white stripes
+        for (j = 0; j < gc_num_white_stripes; j++) {
+            // BEGIN Not Needed 
+            // var width;             
+            // if (j < 3) {
+            //     width = gv_width;
+            // } else {
+            //     width = gv_width;
+            // }
+            // END   Not Needed 
+
+            var whiteStrip = 
+                draw.rect(gv_width, stripeHeight).move(0, (2*j+1) * stripeHeight).fill('#fff');
+            gv_whiteStripeStack.push(whiteStrip);
         }
 
         // Draw the place where the stars go
@@ -105,23 +125,64 @@ function startAnimation(startingDivTag) {
         // https://stackoverflow.com/questions/9300655/
         // play-mp3-file-using-javascript
         new Audio('./cyberWar.mp3').play();
-
+   
         // From above, we should have fifty stars in gv_starStack
-        flipStar(3, 0, gc_red_flip);
-        flipStar(10, 300, gc_red_flip);
-        flipStar(47, 500, gc_blue_flip);
-        flipStar(14, 1000, gc_red_flip);
-        flipStar(2, 1300, gc_blue_flip);
-        flipStar(5, 1300, gc_red_flip);
-        flipStar(7, 1300, gc_red_flip);
-        flipStar(20, 1300, gc_red_flip);
-        flipStar(26, 1300, gc_red_flip);
-        flipStar(33, 1300, gc_red_flip);
-        flipStar(37, 1400, gc_blue_flip);
-        flipStar(1, 1400, gc_blue_flip);
-        flipStar(0, 1600, gc_blue_flip);
-        flipStar(49, 1000, gc_red_flip);
-        flipStar(25, 1900, gc_blue_flip);
+        flipStar(12, 0, gc_red_flip);
+        flipStar(37, 0, gc_blue_flip);
+
+        flipStar(14, 2000, gc_red_flip);
+        flipStar(19, 2000, gc_red_flip);
+        flipStar(20, 2000, gc_red_flip);
+        flipStar(29, 2000, gc_blue_flip);
+        flipStar(34, 2000, gc_blue_flip);
+        flipStar(35, 2000, gc_blue_flip);
+
+        flipStar(7,  6000, gc_red_flip);
+        flipStar(12, 6000, gc_red_flip);
+        flipStar(13, 6000, gc_red_flip);
+        flipStar(17, 6000, gc_red_flip);
+        flipStar(18, 6000, gc_red_flip);
+        flipStar(23, 6000, gc_red_flip);
+
+        flipStar(42, 6000, gc_blue_flip);
+        flipStar(37, 6000, gc_blue_flip);
+        flipStar(36, 6000, gc_blue_flip);
+        flipStar(32, 6000, gc_blue_flip);
+        flipStar(31, 6000, gc_blue_flip);
+        flipStar(26, 6000, gc_blue_flip);
+    
+        // Mess with the white stripes
+
+        var pace = gc_flip_duration / 10;
+        var d;
+        for (j = 0; gc_num_white_stripes; j++) {
+            d = 0;
+            for (i = 0; i < 20; i++) {
+                gv_whiteStripeStack[j].animate(pace, d, 'now').attr(gc_blue_flip);
+                d += pace;
+                gv_whiteStripeStack[j].animate(pace, d, 'now').attr({ fill: '#fff' });
+                d += pace;
+                gv_whiteStripeStack[j].animate(pace, d, 'now').attr(gc_red_flip);
+                d += pace;
+                gv_whiteStripeStack[j].animate(pace, d, 'now').attr({ fill: '#fff' });  
+                d += pace;               
+            }
+        }
+
+        // flipStar(10, 300, gc_red_flip);
+        // flipStar(47, 500, gc_blue_flip);
+        // flipStar(14, 1000, gc_red_flip);
+        // flipStar(2, 1300, gc_blue_flip);
+        // flipStar(5, 1300, gc_red_flip);
+        // flipStar(7, 1300, gc_red_flip);
+        // flipStar(20, 1300, gc_red_flip);
+        // flipStar(26, 1300, gc_red_flip);
+        // flipStar(33, 1300, gc_red_flip);
+        // flipStar(37, 1400, gc_blue_flip);
+        // flipStar(1, 1400, gc_blue_flip);
+        // flipStar(0, 1600, gc_blue_flip);
+        // flipStar(49, 1000, gc_red_flip);
+        // flipStar(25, 1900, gc_blue_flip);
         
 
 
@@ -164,3 +225,8 @@ function startAnimation(startingDivTag) {
         //drawStar(draw, 40, 40);
     // })
 }
+
+
+
+
+
