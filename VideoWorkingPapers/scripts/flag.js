@@ -164,6 +164,7 @@ function startAnimation(startingDivTag) {
     // https://www.javatpoint.com/javascript-timer
     var timeToDraw = 2000;
 
+    var debugFrameHandlerCount = 0;
     function frameHandler() {
         curTime = ticks();
         var totalElapsedTime = curTime - startTime;
@@ -178,17 +179,24 @@ function startAnimation(startingDivTag) {
             var eX = lineCmd.endX;
             var eY = lineCmd.endY;
             if (
-                (totalElapsedTime > delay) && 
-                (totalElaspedTimeRelative < timeToDraw) 
+                (totalElapsedTime > delay) // && 
+                // (totalElaspedTimeRelative < timeToDraw) 
             ) {
-                // https://svgjs.dev/docs/3.0/shape-elements/
-                var newX = 
-                    sX + 
-                    (eX - sX) * (totalElaspedTimeRelative / timeToDraw);
-                var newY = 
-                    sY + 
-                    (eY - sY) * (totalElaspedTimeRelative / timeToDraw);
-                console.log('ET=' + totalElaspedTimeRelative + ' TTD=' + timeToDraw);
+                var newX, newY;
+                if (totalElaspedTimeRelative >= timeToDraw) {
+                    newX = eX;
+                    newY = eY;
+                } else {
+                    newX = 
+                        sX + 
+                        (eX - sX) * 
+                        (totalElaspedTimeRelative / timeToDraw);
+                    newY = 
+                        sY + 
+                        (eY - sY) * 
+                        (totalElaspedTimeRelative / timeToDraw);
+                }
+
                 theLine.plot(sX, sY, newX, newY);
             }
         }
@@ -208,7 +216,7 @@ function startAnimation(startingDivTag) {
             delay: 0,
             startX: gv_width, 
             startY: gv_height * 1.0 / 8.0,
-            endX: gv_width - (3.2 / 8.0 * gv_width),
+            endX: gv_width - (4.4 / 8.0 * gv_width),
             endY: gv_height * 1.0 / 8.0
         }
     );
@@ -221,7 +229,7 @@ function startAnimation(startingDivTag) {
             delay: 0,
             startX: gv_width, 
             startY: gv_height * 1.3 / 8.0, 
-            endX: gv_width - (3.0 / 8.0 * gv_width),
+            endX: gv_width - (4.2 / 8.0 * gv_width),
             endY: gv_height * 1.3 / 8.0
         }
     );
@@ -229,12 +237,12 @@ function startAnimation(startingDivTag) {
     line3.stroke({ color: '#0C2', width: 10, linecap: 'round' });
     lines.push(
         {
-            line: line,
+            line: line3,
             delay: timeToDraw,
-            startX: gv_width - (3.2 / 8.0 * gv_width), 
+            startX: gv_width - (4.4 / 8.0 * gv_width), 
             startY: gv_height * 1.0 / 8.0,
-            endX: gv_width - (3.2 / 8.0 * gv_width),
-            endY: gv_height * 3.0 / 8.0
+            endX: gv_width - (4.4 / 8.0 * gv_width),
+            endY: gv_height * 8.0 / 8.0
         }
     );
     // https://jsfiddle.net/Fuzzy/ve7frkxd/
@@ -242,12 +250,12 @@ function startAnimation(startingDivTag) {
     line4.stroke({ color: '#0C2', width: 10, linecap: 'round' });
     lines.push(
         {
-            line: line2,
+            line: line4,
             delay: timeToDraw,
-            startX: gv_width - (3.0 / 8.0 * gv_width), 
+            startX: gv_width - (4.2 / 8.0 * gv_width), 
             startY: gv_height * 1.3 / 8.0, 
-            endX: gv_width - (3.0 / 8.0 * gv_width),
-            endY: gv_height * 3.0 / 8.0
+            endX: gv_width - (4.2 / 8.0 * gv_width),
+            endY: gv_height * 8.0 / 8.0
         }
     );    
     setInterval(frameHandler, gc_frameDelay);
