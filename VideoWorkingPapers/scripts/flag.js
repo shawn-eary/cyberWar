@@ -291,7 +291,7 @@ function startAnimation(startingDivTag) {
 
 
 
-    const startSecondBend = startSndCircuit + baseTimeToDraw;
+    const startSecondBend = startSndCircuit + baseTimeToDraw / 2.0;
     makeCircuitLine(
         startSecondBend,
         gv_width - (5.2 / 8.0 * gv_width),
@@ -320,42 +320,59 @@ function startAnimation(startingDivTag) {
 
 
     const startThirdBend = 
-        startSndCircuit + 
-        baseTimeToDraw + 
-        baseTimeToDraw / 2.0;
+        startSecondBend +  baseTimeToDraw / 2.0;
     makeCircuitLine(
         startThirdBend,
         gv_width - (6.2 / 8.0 * gv_width),
         gv_height * 5.0 / 8.0,
         gv_width - (6.2 / 8.0 * gv_width),
-        gv_height * 2.0 / 8.0,
-        baseTimeToDraw / 2.0
+        gv_height * 3.0 / 8.0,
+        baseTimeToDraw / 1.5 / 2.0
     );
     makeCircuitLine(
         startThirdBend,
         gv_width - (6.0 / 8.0 * gv_width),
         gv_height * 4.8 / 8.0,
         gv_width - (6.0 / 8.0 * gv_width),
-        gv_height * 1.8 / 8.0,
-        baseTimeToDraw / 2.0
+        gv_height * 2.8 / 8.0,
+        baseTimeToDraw / 1.5 / 2.0
     );
     makeCircuitLine(
         startThirdBend,
         gv_width - (5.8 / 8.0 * gv_width),
         gv_height * 4.6 / 8.0,
         gv_width - (5.8 / 8.0 * gv_width),
-        gv_height * 1.6 / 8.0,
-        baseTimeToDraw / 2.0
+        gv_height * 2.6 / 8.0,
+        baseTimeToDraw / 1.5 / 2.0
     );
 
 
-
-
-
-
-
-
-
+    const startLastBend = 
+        startThirdBend + baseTimeToDraw / 1.5 / 2.0;
+    makeCircuitLine(
+        startLastBend,
+        gv_width - (6.2 / 8.0 * gv_width),
+        gv_height * 3.0 / 8.0,
+        gv_width - (0 / 8.0 * gv_width),
+        gv_height * 3.0 / 8.0,
+        baseTimeToDraw
+    );
+    makeCircuitLine(
+        startLastBend,
+        gv_width - (6.0 / 8.0 * gv_width),
+        gv_height * 2.8 / 8.0,
+        gv_width - (0 / 8.0 * gv_width),
+        gv_height * 2.8 / 8.0,
+        baseTimeToDraw
+    );
+    makeCircuitLine(
+        startLastBend,
+        gv_width - (5.8 / 8.0 * gv_width),
+        gv_height * 2.6 / 8.0,
+        gv_width - (0 / 8.0 * gv_width),
+        gv_height * 2.6 / 8.0,
+        baseTimeToDraw
+    );
 
     setInterval(frameHandler, gc_frameDelay);
 
