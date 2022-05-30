@@ -377,19 +377,19 @@ function startAnimation(startingDivTag) {
     setInterval(frameHandler, gc_frameDelay);
 
     // Mess with the white stripes
-    var pace = gc_flip_duration / 2;
+    var pace = gc_flip_duration / 1.0;
     var d;
     for (j = 0; gc_num_white_stripes; j++) {
         d = 0;
-        for (i = 0; i < 20; i++) {
+        for (i = 0; i < 1; i++) {
             gv_whiteStripeStack[j].animate(pace, d, 'now').attr(gc_blue_flip);
             d += pace;
             gv_whiteStripeStack[j].animate(pace, d, 'now').attr({ fill: '#fff' });
             d += pace;
             gv_whiteStripeStack[j].animate(pace, d, 'now').attr(gc_red_flip);
             d += pace;
-            gv_whiteStripeStack[j].animate(pace, d, 'now').attr({ fill: '#fff' });  
-            d += pace;               
+            // gv_whiteStripeStack[j].animate(pace, d, 'now').attr({ fill: '#fff' });  
+            // d += pace;               
         }
     }
 
