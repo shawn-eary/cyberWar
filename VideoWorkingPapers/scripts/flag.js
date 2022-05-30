@@ -253,6 +253,91 @@ function startAnimation(startingDivTag) {
         gv_height * 8.0 / 8.0
     );
 
+
+
+
+    const startSndCircuit = timeToDraw * 1.2;
+    makeCircuitLine(
+        startSndCircuit,
+        gv_width - (5.2 / 8.0 * gv_width),
+        gv_height * 8.0 / 8.0,
+        gv_width - (5.2 / 8.0 * gv_width),
+        gv_height * 5.0 / 8.0
+    );
+    makeCircuitLine(
+        startSndCircuit,
+        gv_width - (5.0 / 8.0 * gv_width),
+        gv_height * 8.0 / 8.0,
+        gv_width - (5.0 / 8.0 * gv_width),
+        gv_height * 4.8 / 8.0
+    );
+    makeCircuitLine(
+        startSndCircuit,
+        gv_width - (4.8 / 8.0 * gv_width),
+        gv_height * 8.0 / 8.0,
+        gv_width - (4.8 / 8.0 * gv_width),
+        gv_height * 4.6 / 8.0
+    );
+
+
+
+    const startSecondBend = startSndCircuit + timeToDraw;
+    makeCircuitLine(
+        startSecondBend,
+        gv_width - (5.2 / 8.0 * gv_width),
+        gv_height * 5.0 / 8.0,
+        gv_width - (6.2 / 8.0 * gv_width),
+        gv_height * 5.0 / 8.0
+    );
+    makeCircuitLine(
+        startSecondBend,
+        gv_width - (5.0 / 8.0 * gv_width),
+        gv_height * 4.8 / 8.0,
+        gv_width - (6.0 / 8.0 * gv_width),
+        gv_height * 4.8 / 8.0
+    );
+    makeCircuitLine(
+        startSecondBend,
+        gv_width - (4.8 / 8.0 * gv_width),
+        gv_height * 4.6 / 8.0,
+        gv_width - (5.8 / 8.0 * gv_width),
+        gv_height * 4.6 / 8.0
+    );
+
+
+
+    const startThirdBend = startSndCircuit + timeToDraw + timeToDraw;
+    makeCircuitLine(
+        startThirdBend,
+        gv_width - (6.2 / 8.0 * gv_width),
+        gv_height * 5.0 / 8.0,
+        gv_width - (6.2 / 8.0 * gv_width),
+        gv_height * 2.0 / 8.0
+    );
+    makeCircuitLine(
+        startThirdBend,
+        gv_width - (6.0 / 8.0 * gv_width),
+        gv_height * 4.8 / 8.0,
+        gv_width - (6.0 / 8.0 * gv_width),
+        gv_height * 1.8 / 8.0
+    );
+    makeCircuitLine(
+        startThirdBend,
+        gv_width - (5.8 / 8.0 * gv_width),
+        gv_height * 4.6 / 8.0,
+        gv_width - (5.8 / 8.0 * gv_width),
+        gv_height * 1.6 / 8.0
+    );
+
+
+
+
+
+
+
+
+
+
     setInterval(frameHandler, gc_frameDelay);
 
     // Mess with the white stripes
