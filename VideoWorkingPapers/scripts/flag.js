@@ -162,7 +162,7 @@ function startAnimation(startingDivTag) {
     
     // Other animation
     // https://www.javatpoint.com/javascript-timer
-    var timeToDraw = 2000;
+
 
     var debugFrameHandlerCount = 0;
     function frameHandler() {
@@ -178,23 +178,24 @@ function startAnimation(startingDivTag) {
             var sY = lineCmd.startY;
             var eX = lineCmd.endX;
             var eY = lineCmd.endY;
+            var TTD = lineCmd.timeToDraw;
             if (
                 (totalElapsedTime > delay) // && 
                 // (totalElaspedTimeRelative < timeToDraw) 
             ) {
                 var newX, newY;
-                if (totalElaspedTimeRelative >= timeToDraw) {
+                if (totalElaspedTimeRelative >= TTD) {
                     newX = eX;
                     newY = eY;
                 } else {
                     newX = 
                         sX + 
                         (eX - sX) * 
-                        (totalElaspedTimeRelative / timeToDraw);
+                        (totalElaspedTimeRelative / TTD);
                     newY = 
                         sY + 
                         (eY - sY) * 
-                        (totalElaspedTimeRelative / timeToDraw);
+                        (totalElaspedTimeRelative / TTD);
                 }
 
                 theLine.plot(sX, sY, newX, newY);
@@ -202,9 +203,10 @@ function startAnimation(startingDivTag) {
         }
     }
 
-    var lines = [];
+    var lines = [];  
+    const baseTimeToDraw = 2000;
 
-    function makeCircuitLine(iDelay, iSX, iSY, iEX, iEY) {
+    function makeCircuitLine(iDelay, iSX, iSY, iEX, iEY, iTTD) {
         // https://jsfiddle.net/Fuzzy/ve7frkxd/
         var someLine = draw.line(0, 0, 0, 0);    
         someLine.stroke({ color: '#0C2', width: 10, linecap: 'round' });
@@ -215,7 +217,8 @@ function startAnimation(startingDivTag) {
                 startX: iSX, 
                 startY: iSY,
                 endX: iEX,
-                endY: iEY
+                endY: iEY, 
+                timeToDraw: iTTD
             }
         );
     }
@@ -229,104 +232,120 @@ function startAnimation(startingDivTag) {
         gv_width, 
         gv_height * 1.0 / 8.0, 
         gv_width - (4.4 / 8.0 * gv_width),
-        gv_height * 1.0 / 8.0
+        gv_height * 1.0 / 8.0,
+        baseTimeToDraw
     ); 
     makeCircuitLine(
         0,
         gv_width,
         gv_height * 1.3 / 8.0,
         gv_width - (4.2 / 8.0 * gv_width),
-        gv_height * 1.3 / 8.0
+        gv_height * 1.3 / 8.0,
+        baseTimeToDraw
     );
     makeCircuitLine(
-        timeToDraw,
+        baseTimeToDraw,
         gv_width - (4.4 / 8.0 * gv_width),
         gv_height * 1.0 / 8.0,
         gv_width - (4.4 / 8.0 * gv_width),
-        gv_height * 8.0 / 8.0
+        gv_height * 8.0 / 8.0,
+        baseTimeToDraw
     );
     makeCircuitLine(
-        timeToDraw,
+        baseTimeToDraw,
         gv_width - (4.2 / 8.0 * gv_width),
         gv_height * 1.3 / 8.0,
         gv_width - (4.2 / 8.0 * gv_width),
-        gv_height * 8.0 / 8.0
+        gv_height * 8.0 / 8.0,
+        baseTimeToDraw
     );
 
 
 
-
-    const startSndCircuit = timeToDraw * 1.2;
+    // Second Circuit Group
+    const startSndCircuit = baseTimeToDraw * 1.2;
     makeCircuitLine(
         startSndCircuit,
         gv_width - (5.2 / 8.0 * gv_width),
         gv_height * 8.0 / 8.0,
         gv_width - (5.2 / 8.0 * gv_width),
-        gv_height * 5.0 / 8.0
+        gv_height * 5.0 / 8.0,
+        baseTimeToDraw / 2.0
     );
     makeCircuitLine(
         startSndCircuit,
         gv_width - (5.0 / 8.0 * gv_width),
         gv_height * 8.0 / 8.0,
         gv_width - (5.0 / 8.0 * gv_width),
-        gv_height * 4.8 / 8.0
+        gv_height * 4.8 / 8.0,
+        baseTimeToDraw / 2.0
     );
     makeCircuitLine(
         startSndCircuit,
         gv_width - (4.8 / 8.0 * gv_width),
         gv_height * 8.0 / 8.0,
         gv_width - (4.8 / 8.0 * gv_width),
-        gv_height * 4.6 / 8.0
+        gv_height * 4.6 / 8.0,
+        baseTimeToDraw / 2.0
     );
 
 
 
-    const startSecondBend = startSndCircuit + timeToDraw;
+    const startSecondBend = startSndCircuit + baseTimeToDraw;
     makeCircuitLine(
         startSecondBend,
         gv_width - (5.2 / 8.0 * gv_width),
         gv_height * 5.0 / 8.0,
         gv_width - (6.2 / 8.0 * gv_width),
-        gv_height * 5.0 / 8.0
+        gv_height * 5.0 / 8.0,
+        baseTimeToDraw / 2.0
     );
     makeCircuitLine(
         startSecondBend,
         gv_width - (5.0 / 8.0 * gv_width),
         gv_height * 4.8 / 8.0,
         gv_width - (6.0 / 8.0 * gv_width),
-        gv_height * 4.8 / 8.0
+        gv_height * 4.8 / 8.0,
+        baseTimeToDraw / 2.0
     );
     makeCircuitLine(
         startSecondBend,
         gv_width - (4.8 / 8.0 * gv_width),
         gv_height * 4.6 / 8.0,
         gv_width - (5.8 / 8.0 * gv_width),
-        gv_height * 4.6 / 8.0
+        gv_height * 4.6 / 8.0,
+        baseTimeToDraw / 2.0
     );
 
 
 
-    const startThirdBend = startSndCircuit + timeToDraw + timeToDraw;
+    const startThirdBend = 
+        startSndCircuit + 
+        baseTimeToDraw + 
+        baseTimeToDraw / 2.0;
     makeCircuitLine(
         startThirdBend,
         gv_width - (6.2 / 8.0 * gv_width),
         gv_height * 5.0 / 8.0,
         gv_width - (6.2 / 8.0 * gv_width),
-        gv_height * 2.0 / 8.0
+        gv_height * 2.0 / 8.0,
+        baseTimeToDraw / 2.0
     );
     makeCircuitLine(
         startThirdBend,
         gv_width - (6.0 / 8.0 * gv_width),
         gv_height * 4.8 / 8.0,
         gv_width - (6.0 / 8.0 * gv_width),
-        gv_height * 1.8 / 8.0
+        gv_height * 1.8 / 8.0,
+        baseTimeToDraw / 2.0
     );
     makeCircuitLine(
         startThirdBend,
         gv_width - (5.8 / 8.0 * gv_width),
         gv_height * 4.6 / 8.0,
         gv_width - (5.8 / 8.0 * gv_width),
-        gv_height * 1.6 / 8.0
+        gv_height * 1.6 / 8.0,
+        baseTimeToDraw / 2.0
     );
 
 
