@@ -204,60 +204,55 @@ function startAnimation(startingDivTag) {
 
     var lines = [];
 
+    function makeCircuitLine(iDelay, iSX, iSY, iEX, iEY) {
+        // https://jsfiddle.net/Fuzzy/ve7frkxd/
+        var someLine = draw.line(0, 0, 0, 0);    
+        someLine.stroke({ color: '#0C2', width: 10, linecap: 'round' });
+        lines.push(
+            {
+                line: someLine,
+                delay: iDelay,
+                startX: iSX, 
+                startY: iSY,
+                endX: iEX,
+                endY: iEY
+            }
+        );
+    }
+
     var startTime = ticks();
     var lastTime = startTime;
     var curTime = 0;
-    // https://jsfiddle.net/Fuzzy/ve7frkxd/
-    var line = draw.line(0, 0, 0, 0);
-    line.stroke({ color: '#0C2', width: 10, linecap: 'round' });
-    lines.push(
-        {
-            line: line,
-            delay: 0,
-            startX: gv_width, 
-            startY: gv_height * 1.0 / 8.0,
-            endX: gv_width - (4.4 / 8.0 * gv_width),
-            endY: gv_height * 1.0 / 8.0
-        }
+
+    makeCircuitLine(
+        0, 
+        gv_width, 
+        gv_height * 1.0 / 8.0, 
+        gv_width - (4.4 / 8.0 * gv_width),
+        gv_height * 1.0 / 8.0
+    ); 
+    makeCircuitLine(
+        0,
+        gv_width,
+        gv_height * 1.3 / 8.0,
+        gv_width - (4.2 / 8.0 * gv_width),
+        gv_height * 1.3 / 8.0
     );
-    // https://jsfiddle.net/Fuzzy/ve7frkxd/
-    var line2 = draw.line(0, 0, 0, 0);
-    line2.stroke({ color: '#0C2', width: 10, linecap: 'round' });
-    lines.push(
-        {
-            line: line2,
-            delay: 0,
-            startX: gv_width, 
-            startY: gv_height * 1.3 / 8.0, 
-            endX: gv_width - (4.2 / 8.0 * gv_width),
-            endY: gv_height * 1.3 / 8.0
-        }
+    makeCircuitLine(
+        timeToDraw,
+        gv_width - (4.4 / 8.0 * gv_width),
+        gv_height * 1.0 / 8.0,
+        gv_width - (4.4 / 8.0 * gv_width),
+        gv_height * 8.0 / 8.0
     );
-    var line3 = draw.line(0, 0, 0, 0);
-    line3.stroke({ color: '#0C2', width: 10, linecap: 'round' });
-    lines.push(
-        {
-            line: line3,
-            delay: timeToDraw,
-            startX: gv_width - (4.4 / 8.0 * gv_width), 
-            startY: gv_height * 1.0 / 8.0,
-            endX: gv_width - (4.4 / 8.0 * gv_width),
-            endY: gv_height * 8.0 / 8.0
-        }
+    makeCircuitLine(
+        timeToDraw,
+        gv_width - (4.2 / 8.0 * gv_width),
+        gv_height * 1.3 / 8.0,
+        gv_width - (4.2 / 8.0 * gv_width),
+        gv_height * 8.0 / 8.0
     );
-    // https://jsfiddle.net/Fuzzy/ve7frkxd/
-    var line4 = draw.line(0, 0, 0, 0);
-    line4.stroke({ color: '#0C2', width: 10, linecap: 'round' });
-    lines.push(
-        {
-            line: line4,
-            delay: timeToDraw,
-            startX: gv_width - (4.2 / 8.0 * gv_width), 
-            startY: gv_height * 1.3 / 8.0, 
-            endX: gv_width - (4.2 / 8.0 * gv_width),
-            endY: gv_height * 8.0 / 8.0
-        }
-    );    
+
     setInterval(frameHandler, gc_frameDelay);
 
     // Mess with the white stripes
