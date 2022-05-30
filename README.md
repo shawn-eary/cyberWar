@@ -1,7 +1,7 @@
 # Cyber War
 Cyber War
 
-©2021 - Shawn Eary – CC BY-SA and MIT Licenses when Applicable
+©2021, 2022 - Shawn Eary – CC BY-SA and MIT Licenses when Applicable
 
 This song is now licensed CC BY-SA. Other parts are licensed via MIT License when allowed. Please do not use any part of this project to: break any laws; defame or harm any member of any religious Faith; defame or harm any authors. This was originally a political song aimed at protecting the U.S. Constitution (particularly first amendment rights). Obviously, I can't prevent malicious variants from appearing but I would ask that you please do not do that... This song comes without a warranty. It's "art". It's meant to "get a point across".
 
