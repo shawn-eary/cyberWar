@@ -572,7 +572,7 @@
   <property name="global_feed">1</property>
  </producer>
  <playlist id="main_bin">
-  <property name="kdenlive:docproperties.activeTrack">8</property>
+  <property name="kdenlive:docproperties.activeTrack">7</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
   <property name="kdenlive:docproperties.audioTarget">-1</property>
   <property name="kdenlive:docproperties.disablepreview">0</property>
@@ -587,7 +587,7 @@
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">20.12.3</property>
-  <property name="kdenlive:docproperties.position">2196</property>
+  <property name="kdenlive:docproperties.position">1614</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_2997</property>
@@ -617,7 +617,7 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">/home/seary/source/cyberwar/cyberWar/tempRenderings/2022Y_05M_30D.webm</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
-  <property name="kdenlive:docproperties.scrollPos">1381</property>
+  <property name="kdenlive:docproperties.scrollPos">484</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
@@ -922,6 +922,7 @@
   <blank length="00:00:07.140"/>
   <entry producer="producer2" in="00:00:00.000" out="00:00:41.008">
    <property name="kdenlive:id">4</property>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter11" out="00:00:01.268">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -936,6 +937,7 @@
     <property name="kdenlive_id">fade_to_black</property>
     <property name="end">0</property>
     <property name="alpha">-1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
  </playlist>
@@ -953,6 +955,7 @@
   <blank length="00:00:08.242"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:43.944">
    <property name="kdenlive:id">5</property>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter13">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -1037,12 +1040,13 @@
   <blank length="00:00:08.475"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:43.944">
    <property name="kdenlive:id">5</property>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter19">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=610 248 115 125 1.000000;00:00:01.401=610 248 115 125 1.000000;00:00:43.977=</property>
-    <property name="rotation">00:00:00.000=0;00:00:01.401=0;00:00:43.977=</property>
+    <property name="rect">00:00:00.000=610 248 115 125 1.000000;00:00:08.742=610 248 115 125 1.000000;00:00:20.387=610 248 115 125 1.000000;00:00:21.188=610 248 115 125 1.000000;00:00:31.431=610 248 115 125 1.000000;00:00:43.944=610 248 115 125 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:08.742=178;00:00:20.387=357;00:00:21.188=2;00:00:31.431=179;00:00:43.944=360</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
@@ -1084,8 +1088,8 @@
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=522 342 112 184 1.000000;00:00:01.401=522 342 112 184 1.000000;00:00:10.811=522 342 112 184 1.000000;00:00:21.555=522 342 112 184 1.000000;00:00:21.889=522 342 112 184 1.000000;00:00:32.566=522 342 112 184 1.000000;00:00:43.944=522 342 112 184 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:01.401=0;00:00:10.811=179;00:00:21.555=359;00:00:21.889=1;00:00:32.566=179;00:00:43.944=358.622</property>
+    <property name="rect">00:00:00.000=522 342 112 184 1.000000;00:00:10.811=522 342 112 184 1.000000;00:00:21.555=522 342 112 184 1.000000;00:00:21.889=522 342 112 184 1.000000;00:00:32.566=522 342 112 184 1.000000;00:00:43.944=522 342 112 184 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:10.811=179;00:00:21.555=359;00:00:21.889=1;00:00:32.566=179;00:00:43.944=358.622</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
