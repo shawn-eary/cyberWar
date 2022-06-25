@@ -9,6 +9,8 @@ Toshio Kaio
 et al.
 https://en.wikipedia.org/wiki/Pac-Man
 
+# BEGIN REM: Content kept for possible future use 
+
 Galaga content is copyright by Namco with thanks to:
 Shigeru Yokoyama
 Tetsu Ogawa
@@ -17,6 +19,10 @@ Nobuyuki Ohnogi
 et al.
 https://en.wikipedia.org/wiki/Galaga
 
+
+
+
+# BEGIN REM : This following content will be deleted as it is not needed at this time
 Mario Bros content is copyright by Nintendo with thanks to:
 Gunpei Yokoi
 Shigeru Miyamoto
@@ -34,9 +40,4 @@ Hiroaki Suga
 Hirokazu Ando
 Jun Ishikawa
 https://en.wikipedia.org/wiki/Kirby%27s_Adventure
-
-Right now. I'm not sure how I'm going to use this content, but it's just me playing some really old but amazing video games. With much respect to the developers, artists, companies and engineers that provided these games to young children (and some adults [smirk]) to provide countless hours of entertainment and some sleepless nights. 
-
-
-
 
