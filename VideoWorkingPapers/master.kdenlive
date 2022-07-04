@@ -403,6 +403,25 @@
   <property name="kdenlive:file_hash">d67cbc68269a2fddd7d09a2af745e703</property>
   <property name="kdenlive:clip_type">2</property>
  </producer>
+ <producer id="producer8" in="00:00:00.000" out="00:00:04.972">
+  <property name="length">00:00:05.005</property>
+  <property name="eof">pause</property>
+  <property name="resource">sheep.png</property>
+  <property name="ttl">25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="progressive">1</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.width">420</property>
+  <property name="meta.media.height">370</property>
+  <property name="mlt_service">qimage</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:duration">00:00:05.005</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:clip_type">2</property>
+  <property name="kdenlive:id">14</property>
+  <property name="kdenlive:file_size">29653</property>
+  <property name="kdenlive:file_hash">1a75ad3673c347d3f67739d9eeba8e86</property>
+ </producer>
  <playlist id="main_bin">
   <property name="kdenlive:docproperties.activeTrack">4</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
@@ -419,7 +438,7 @@
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">22.04.2</property>
-  <property name="kdenlive:docproperties.position">969</property>
+  <property name="kdenlive:docproperties.position">1306</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_2997</property>
@@ -449,11 +468,11 @@
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
-  <property name="kdenlive:docproperties.scrollPos">815</property>
+  <property name="kdenlive:docproperties.scrollPos">813</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1.04</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
-  <property name="kdenlive:docproperties.videoTarget">-1</property>
+  <property name="kdenlive:docproperties.videoTarget">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">1</property>
   <property name="kdenlive:docproperties.zoom">5</property>
@@ -472,6 +491,7 @@
   <entry producer="producer12" in="00:00:00.000" out="00:00:46.313"/>
   <entry producer="producer14" in="00:00:00.000" out="00:00:12.679"/>
   <entry producer="producer15" in="00:00:00.000" out="00:00:12.679"/>
+  <entry producer="producer8" in="00:00:00.000" out="00:00:04.972"/>
  </playlist>
  <producer id="black_track" in="00:00:00.000" out="00:20:23.123">
   <property name="length">2147483647</property>
