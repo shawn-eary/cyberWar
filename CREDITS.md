@@ -20,6 +20,11 @@ under Buena Vista / Disney
 https://en.wikipedia.org/wiki/Tron
 Knockoff drawn by Shawn Eary
 
+# Surfer Dude and Some of the Musical Notes
+Stock royalty free Debian 11 emojis. 
+Surfer Dude was modified by Shawn Eary to fit into the
+"Wish They All Could be Oklahoma" heart.
+
 # Cube Scene
 Nathan Duck Ducky3D
 Abstract Geometry Nodes Loop Animation in Eevee (Blender Tutorial)
