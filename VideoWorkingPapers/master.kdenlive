@@ -877,10 +877,64 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="kdenlive:file_size">88041</property>
   <property name="kdenlive:file_hash">466155991228377f573800d898becbdb</property>
  </producer>
+ <producer id="producer32" in="00:00:00.000" out="00:03:02.603">
+  <property name="length">5473</property>
+  <property name="eof">pause</property>
+  <property name="resource">clips/projectM-adam_eatit_fx_2_martin_disco_mix_lodus_geiss_ludicrous_speed_flexi_aderrasi_n_hexcollie_milk.webm</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">vp9</property>
+  <property name="meta.media.0.codec.long_name">Google VP9</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:03:02.589000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:03:02.608000000</property>
+  <property name="meta.attr.ENCODER.markup">Lavf59.16.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:clipname"/>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">34</property>
+  <property name="kdenlive:file_size">42662975</property>
+  <property name="kdenlive:file_hash">c640452d0f09187620e334c7faa6a140</property>
+  <property name="kdenlive:audio_max1">245</property>
+ </producer>
  <playlist id="main_bin">
-  <property name="kdenlive:docproperties.activeTrack">4</property>
+  <property name="kdenlive:docproperties.activeTrack">21</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
-  <property name="kdenlive:docproperties.audioTarget">-1</property>
+  <property name="kdenlive:docproperties.audioTarget">2</property>
   <property name="kdenlive:docproperties.disablepreview">0</property>
   <property name="kdenlive:docproperties.documentid">1653933613472</property>
   <property name="kdenlive:docproperties.enableTimelineZone">0</property>
@@ -893,7 +947,7 @@ May Grace, Faith and Hope bring us a better nation.
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">22.04.2</property>
-  <property name="kdenlive:docproperties.position">4185</property>
+  <property name="kdenlive:docproperties.position">6250</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_2997</property>
@@ -925,14 +979,14 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="kdenlive:docproperties.rendertctype">-1</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
-  <property name="kdenlive:docproperties.scrollPos">570</property>
+  <property name="kdenlive:docproperties.scrollPos">801</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1.04</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
-  <property name="kdenlive:docproperties.videoTarget">8</property>
-  <property name="kdenlive:docproperties.zonein">0</property>
-  <property name="kdenlive:docproperties.zoneout">1</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.videoTarget">-1</property>
+  <property name="kdenlive:docproperties.zonein">4186</property>
+  <property name="kdenlive:docproperties.zoneout">5232</property>
+  <property name="kdenlive:docproperties.zoom">10</property>
   <property name="kdenlive:expandedFolders"/>
   <property name="kdenlive:documentnotes"/>
   <property name="xml_retain">1</property>
@@ -968,8 +1022,9 @@ May Grace, Faith and Hope bring us a better nation.
   <entry producer="producer29" in="00:00:00.000" out="00:00:04.972"/>
   <entry producer="producer30" in="00:00:00.000" out="00:00:04.972"/>
   <entry producer="producer31" in="00:00:00.000" out="00:00:04.972"/>
+  <entry producer="producer32" in="00:00:00.000" out="00:03:02.603"/>
  </playlist>
- <producer id="black_track" in="00:00:00.000" out="00:20:39.473">
+ <producer id="black_track" in="00:00:00.000" out="00:21:56.223">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -978,7 +1033,7 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="mlt_image_format">rgba</property>
   <property name="set.test_audio">0</property>
  </producer>
- <producer id="producer32" in="00:00:00.000" out="00:03:42.109">
+ <producer id="producer33" in="00:00:00.000" out="00:03:42.109">
   <property name="length">6657</property>
   <property name="eof">pause</property>
   <property name="resource">cyberWar.mp3</property>
@@ -1014,7 +1069,7 @@ May Grace, Faith and Hope bring us a better nation.
  </producer>
  <playlist id="playlist0">
   <property name="kdenlive:audio_track">1</property>
-  <entry producer="producer32" in="00:00:00.000" out="00:03:42.109">
+  <entry producer="producer33" in="00:00:00.000" out="00:03:42.109">
    <property name="kdenlive:id">2</property>
   </entry>
  </playlist>
@@ -1051,7 +1106,7 @@ May Grace, Faith and Hope bring us a better nation.
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer33" in="00:00:00.000" out="00:03:42.109">
+ <producer id="producer34" in="00:00:00.000" out="00:03:42.109">
   <property name="length">6657</property>
   <property name="eof">pause</property>
   <property name="resource">cyberWar.mp3</property>
@@ -1088,7 +1143,7 @@ May Grace, Faith and Hope bring us a better nation.
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <blank length="00:00:00.033"/>
-  <entry producer="producer33" in="00:00:00.000" out="00:03:42.109">
+  <entry producer="producer34" in="00:00:00.000" out="00:03:42.109">
    <property name="kdenlive:id">2</property>
    <filter id="filter3" in="00:03:33.333" out="00:03:42.142">
     <property name="window">75</property>
@@ -1142,7 +1197,7 @@ May Grace, Faith and Hope bring us a better nation.
  </playlist>
  <tractor id="tractor2" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
-  <property name="kdenlive:trackheight">49</property>
+  <property name="kdenlive:trackheight">138</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
@@ -1170,7 +1225,15 @@ May Grace, Faith and Hope bring us a better nation.
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer34" in="00:00:00.000" out="00:00:13.947">
+ <playlist id="playlist6"/>
+ <playlist id="playlist7"/>
+ <tractor id="tractor3" in="00:00:00.000">
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <track producer="playlist6"/>
+  <track producer="playlist7"/>
+ </tractor>
+ <producer id="producer35" in="00:00:00.000" out="00:00:13.947">
   <property name="length">419</property>
   <property name="eof">pause</property>
   <property name="resource">clips/intro.webm</property>
@@ -1228,7 +1291,7 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="set.test_image">0</property>
   <property name="meta.media.has_b_frames">0</property>
  </producer>
- <producer id="producer35" in="00:00:00.000" out="00:00:08.041">
+ <producer id="producer36" in="00:00:00.000" out="00:00:08.041">
   <property name="length">242</property>
   <property name="eof">pause</property>
   <property name="resource">clips/cubeSceneDucky3D_bv3-2-2-b.webm</property>
@@ -1285,8 +1348,8 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <playlist id="playlist6">
-  <entry producer="producer34" in="00:00:00.000" out="00:00:13.947">
+ <playlist id="playlist8">
+  <entry producer="producer35" in="00:00:00.000" out="00:00:13.947">
    <property name="kdenlive:id">3</property>
    <filter id="filter10">
     <property name="mlt_service">crop</property>
@@ -1302,7 +1365,7 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
   <blank length="00:01:12.279"/>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
    <filter id="filter11" out="00:00:02.769">
     <property name="start">1</property>
@@ -1313,13 +1376,13 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
    <filter id="filter12" in="00:00:07.908" out="00:00:08.041">
     <property name="start">1</property>
@@ -1330,57 +1393,57 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
-  <entry producer="producer35" in="00:00:00.000" out="00:00:08.041">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:08.041">
    <property name="kdenlive:id">28</property>
   </entry>
  </playlist>
- <playlist id="playlist7"/>
- <tractor id="tractor3" in="00:00:00.000" out="00:03:43.510">
-  <property name="kdenlive:trackheight">48</property>
+ <playlist id="playlist9"/>
+ <tractor id="tractor4" in="00:00:00.000" out="00:03:43.510">
+  <property name="kdenlive:trackheight">85</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist6"/>
-  <track hide="audio" producer="playlist7"/>
+  <track hide="audio" producer="playlist8"/>
+  <track hide="audio" producer="playlist9"/>
  </tractor>
- <producer id="producer36" in="00:00:00.000" out="00:01:38.272">
+ <producer id="producer37" in="00:00:00.000" out="00:01:38.272">
   <property name="length">2946</property>
   <property name="eof">pause</property>
   <property name="resource">clips/digitBackground.webm</property>
@@ -1437,34 +1500,132 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <playlist id="playlist8">
+ <producer id="producer38" in="00:00:00.000" out="00:03:02.603">
+  <property name="length">5473</property>
+  <property name="eof">pause</property>
+  <property name="resource">clips/projectM-adam_eatit_fx_2_martin_disco_mix_lodus_geiss_ludicrous_speed_flexi_aderrasi_n_hexcollie_milk.webm</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:clip_type">0</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">34</property>
+  <property name="kdenlive:file_size">42662975</property>
+  <property name="kdenlive:file_hash">c640452d0f09187620e334c7faa6a140</property>
+  <property name="kdenlive:audio_max1">245</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">vp9</property>
+  <property name="meta.media.0.codec.long_name">Google VP9</property>
+  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.attr.0.stream.DURATION.markup">00:03:02.589000000</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:03:02.608000000</property>
+  <property name="meta.attr.ENCODER.markup">Lavf59.16.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.has_b_frames">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="set.test_audio">1</property>
+  <property name="set.test_image">0</property>
+ </producer>
+ <playlist id="playlist10">
   <blank length="00:00:41.475"/>
-  <entry producer="producer36" in="00:00:00.000" out="00:01:17.050">
+  <entry producer="producer37" in="00:00:00.000" out="00:01:17.050">
    <property name="kdenlive:id">15</property>
-   <property name="kdenlive:activeeffect">-1</property>
    <filter id="filter13" in="00:01:14.181" out="00:01:17.084">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="alpha">00:00:00.000=1;00:00:02.903=0</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:00:04.004"/>
+  <blank length="00:00:20.988"/>
+  <entry producer="producer38" in="00:01:40.541" out="00:03:02.603">
+   <property name="kdenlive:id">34</property>
+   <filter id="filter14">
+    <property name="version">0.2</property>
+    <property name="mlt_service">frei0r.alphagrad</property>
+    <property name="kdenlive_id">frei0r.alphagrad</property>
+    <property name="Position">00:01:40.541=0.659</property>
+    <property name="Transition width">00:01:40.541=1</property>
+    <property name="Tilt">00:01:40.541=0.575</property>
+    <property name="Min">00:01:40.541=0</property>
+    <property name="Max">00:01:40.541=1</property>
+    <property name="Operation">1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter15" in="00:01:40.541" out="00:01:46.146">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:05.606=1</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist11"/>
+ <tractor id="tractor5" in="00:00:00.000" out="00:03:41.608">
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <track producer="playlist10"/>
+  <track producer="playlist11"/>
+ </tractor>
+ <playlist id="playlist12"/>
+ <playlist id="playlist13"/>
+ <tractor id="tractor6" in="00:00:00.000">
+  <property name="kdenlive:trackheight">49</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <track producer="playlist12"/>
+  <track producer="playlist13"/>
+ </tractor>
+ <playlist id="playlist14">
+  <blank length="00:02:02.569"/>
   <entry producer="producer13" in="00:00:00.000" out="00:01:39.573">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">0</property>
-   <filter id="filter14">
+   <property name="kdenlive:activeeffect">3</property>
+   <filter id="filter16">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=923 511 24 12 1.000000;00:00:03.971=913 523 24 12 1.000000;00:00:50.150=667 334 519 387 1.000000;00:01:12.513=223 -7 1418 1069 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:03.971=0;00:00:50.150=0;00:01:12.513=0</property>
+    <property name="rect">00:00:00.000=923 511 24 12 1.000000;00:00:03.971=913 523 24 12 1.000000;00:00:17.017=843 469 163 117 1.000000;00:00:50.284=843 469 163 117 1.000000;00:00:56.857=781 417 288 205 1.000000;00:01:12.513=781 417 288 205 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:03.971=0;00:00:17.017=0;00:00:50.284=0;00:00:56.857=0;00:01:12.513=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter15" out="00:00:23.957">
+   <filter id="filter17" out="00:00:23.957">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1472,29 +1633,38 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="alpha">00:00:00.000=0;00:00:23.957=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
+   <filter id="filter18">
+    <property name="version">0.1</property>
+    <property name="mlt_service">frei0r.distort0r</property>
+    <property name="kdenlive_id">frei0r.distort0r</property>
+    <property name="Amplitude">00:00:00.000=0;00:00:36.637=0;00:00:37.638=0.098;00:00:38.338=0</property>
+    <property name="Frequency">00:00:00.000=0;00:00:36.637=0;00:00:37.638=0.254;00:00:38.338=0</property>
+    <property name="kdenlive:collapsed">1</property>
+   </filter>
+   <filter id="filter19">
+    <property name="start">2</property>
+    <property name="hori">00:00:00.000=1;00:00:15.682=1;00:00:17.251=1;00:00:22.789=1;00:00:50.284=1;00:00:56.857=1</property>
+    <property name="vert">00:00:00.000=1;00:00:15.682=1;00:00:17.251=1;00:00:22.789=1;00:00:50.284=1;00:00:56.857=1</property>
+    <property name="blur">00:00:00.000=20;00:00:15.682=20;00:00:17.251=12;00:00:22.789=10;00:00:50.284=10;00:00:56.857=7</property>
+    <property name="mlt_service">boxblur</property>
+    <property name="kdenlive_id">boxblur</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
   </entry>
  </playlist>
- <playlist id="playlist9"/>
- <tractor id="tractor4" in="00:00:00.000" out="00:03:42.142">
+ <playlist id="playlist15"/>
+ <tractor id="tractor7" in="00:00:00.000" out="00:03:42.142">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <track producer="playlist8"/>
-  <track producer="playlist9"/>
+  <track producer="playlist14"/>
+  <track producer="playlist15"/>
  </tractor>
- <playlist id="playlist10"/>
- <playlist id="playlist11"/>
- <tractor id="tractor5" in="00:00:00.000">
-  <property name="kdenlive:trackheight">69</property>
-  <property name="kdenlive:timeline_active">1</property>
-  <track producer="playlist10"/>
-  <track producer="playlist11"/>
- </tractor>
- <playlist id="playlist12">
+ <playlist id="playlist16">
   <blank length="00:00:07.140"/>
   <entry producer="producer2" in="00:00:00.000" out="00:00:41.008">
    <property name="kdenlive:id">4</property>
    <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter16" out="00:00:01.268">
+   <filter id="filter20" out="00:00:01.268">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1502,7 +1672,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=0;00:00:01.268=1</property>
    </filter>
-   <filter id="filter17" in="00:00:36.403" out="00:00:41.008">
+   <filter id="filter21" in="00:00:36.403" out="00:00:41.008">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1510,7 +1680,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=1;00:00:04.605=0</property>
    </filter>
-   <filter id="filter18">
+   <filter id="filter22">
     <property name="start">1</property>
     <property name="level">00:00:00.000=1;00:00:27.594=1;00:00:28.362=0.35</property>
     <property name="mlt_service">brightness</property>
@@ -1521,7 +1691,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:12.980"/>
   <entry producer="producer17" in="00:00:00.000" out="00:00:37.604">
    <property name="kdenlive:id">19</property>
-   <filter id="filter19">
+   <filter id="filter23">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1531,7 +1701,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter20" in="00:00:36.637" out="00:00:37.604">
+   <filter id="filter24" in="00:00:36.637" out="00:00:37.604">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1540,21 +1710,21 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist13"/>
- <tractor id="tractor6" in="00:00:00.000" out="00:01:38.772">
+ <playlist id="playlist17"/>
+ <tractor id="tractor8" in="00:00:00.000" out="00:01:38.772">
   <property name="kdenlive:trackheight">49</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist12"/>
-  <track hide="audio" producer="playlist13"/>
+  <track hide="audio" producer="playlist16"/>
+  <track hide="audio" producer="playlist17"/>
  </tractor>
- <playlist id="playlist14">
+ <playlist id="playlist18">
   <blank length="00:01:38.805"/>
   <entry producer="producer29" in="00:00:00.000" out="00:00:19.720">
    <property name="kdenlive:id">30</property>
-   <filter id="filter21">
+   <filter id="filter25">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1564,7 +1734,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter22" out="00:00:01.001">
+   <filter id="filter26" out="00:00:01.001">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1574,18 +1744,18 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist15"/>
- <tractor id="tractor7" in="00:00:00.000" out="00:01:58.525">
+ <playlist id="playlist19"/>
+ <tractor id="tractor9" in="00:00:00.000" out="00:01:58.525">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <track producer="playlist14"/>
-  <track producer="playlist15"/>
+  <track producer="playlist18"/>
+  <track producer="playlist19"/>
  </tractor>
- <playlist id="playlist16">
+ <playlist id="playlist20">
   <blank length="00:00:08.242"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:43.944">
    <property name="kdenlive:id">5</property>
-   <filter id="filter23">
+   <filter id="filter27">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1595,7 +1765,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter24" out="00:00:01.435">
+   <filter id="filter28" out="00:00:01.435">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1603,7 +1773,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=0;00:00:01.435=1</property>
    </filter>
-   <filter id="filter25" in="00:00:39.273" out="00:00:43.944">
+   <filter id="filter29" in="00:00:39.273" out="00:00:43.944">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1616,7 +1786,7 @@ May Grace, Faith and Hope bring us a better nation.
   <entry producer="producer19" in="00:00:00.000" out="00:00:37.037">
    <property name="kdenlive:id">21</property>
    <property name="kdenlive:activeeffect">0</property>
-   <filter id="filter26">
+   <filter id="filter30">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1629,7 +1799,7 @@ May Grace, Faith and Hope bring us a better nation.
   </entry>
   <entry producer="producer28" in="00:00:00.000" out="00:00:23.790">
    <property name="kdenlive:id">32</property>
-   <filter id="filter27">
+   <filter id="filter31">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1639,7 +1809,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter28" in="00:00:23.724" out="00:00:23.790">
+   <filter id="filter32" in="00:00:23.724" out="00:00:23.790">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1649,21 +1819,21 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist17"/>
- <tractor id="tractor8" in="00:00:00.000" out="00:02:02.436">
+ <playlist id="playlist21"/>
+ <tractor id="tractor10" in="00:00:00.000" out="00:02:02.436">
   <property name="kdenlive:trackheight">40</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist16"/>
-  <track hide="audio" producer="playlist17"/>
+  <track hide="audio" producer="playlist20"/>
+  <track hide="audio" producer="playlist21"/>
  </tractor>
- <playlist id="playlist18">
+ <playlist id="playlist22">
   <blank length="00:01:38.572"/>
   <entry producer="producer31" in="00:00:00.000" out="00:00:13.480">
    <property name="kdenlive:id">33</property>
-   <filter id="filter29">
+   <filter id="filter33">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1673,7 +1843,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter30" out="00:00:00.167">
+   <filter id="filter34" out="00:00:00.167">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1681,7 +1851,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="alpha">00:00:00.000=0;00:00:00.167=1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter31" in="00:00:10.511" out="00:00:13.480">
+   <filter id="filter35" in="00:00:10.511" out="00:00:13.480">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1691,18 +1861,18 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist19"/>
- <tractor id="tractor9" in="00:00:00.000" out="00:01:52.052">
+ <playlist id="playlist23"/>
+ <tractor id="tractor11" in="00:00:00.000" out="00:01:52.052">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <track producer="playlist18"/>
-  <track producer="playlist19"/>
+  <track producer="playlist22"/>
+  <track producer="playlist23"/>
  </tractor>
- <playlist id="playlist20">
+ <playlist id="playlist24">
   <blank length="00:00:07.941"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:43.944">
    <property name="kdenlive:id">5</property>
-   <filter id="filter32">
+   <filter id="filter36">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1712,7 +1882,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter33" out="00:00:01.435">
+   <filter id="filter37" out="00:00:01.435">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1720,7 +1890,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=0;00:00:01.435=1</property>
    </filter>
-   <filter id="filter34" in="00:00:39.339" out="00:00:43.944">
+   <filter id="filter38" in="00:00:39.339" out="00:00:43.944">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1732,7 +1902,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:10.210"/>
   <entry producer="producer18" in="00:00:00.000" out="00:00:36.703">
    <property name="kdenlive:id">20</property>
-   <filter id="filter35">
+   <filter id="filter39">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1742,7 +1912,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter36" in="00:00:35.836" out="00:00:36.703">
+   <filter id="filter40" in="00:00:35.836" out="00:00:36.703">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1752,21 +1922,21 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist21"/>
- <tractor id="tractor10" in="00:00:00.000" out="00:01:38.839">
+ <playlist id="playlist25"/>
+ <tractor id="tractor12" in="00:00:00.000" out="00:01:38.839">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist20"/>
-  <track hide="audio" producer="playlist21"/>
+  <track hide="audio" producer="playlist24"/>
+  <track hide="audio" producer="playlist25"/>
  </tractor>
- <playlist id="playlist22">
+ <playlist id="playlist26">
   <blank length="00:01:38.639"/>
   <entry producer="producer30" in="00:00:00.000" out="00:00:15.883">
    <property name="kdenlive:id">31</property>
-   <filter id="filter37">
+   <filter id="filter41">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1776,7 +1946,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter38" out="00:00:00.968">
+   <filter id="filter42" out="00:00:00.968">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1786,18 +1956,18 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist23"/>
- <tractor id="tractor11" in="00:00:00.000" out="00:01:54.521">
+ <playlist id="playlist27"/>
+ <tractor id="tractor13" in="00:00:00.000" out="00:01:54.521">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <track producer="playlist22"/>
-  <track producer="playlist23"/>
+  <track producer="playlist26"/>
+  <track producer="playlist27"/>
  </tractor>
- <playlist id="playlist24">
+ <playlist id="playlist28">
   <blank length="00:00:08.475"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:43.944">
    <property name="kdenlive:id">5</property>
-   <filter id="filter39">
+   <filter id="filter43">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1807,7 +1977,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter40" out="00:00:01.435">
+   <filter id="filter44" out="00:00:01.435">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1815,7 +1985,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=0;00:00:01.435=1</property>
    </filter>
-   <filter id="filter41" in="00:00:39.206" out="00:00:43.944">
+   <filter id="filter45" in="00:00:39.206" out="00:00:43.944">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1828,7 +1998,7 @@ May Grace, Faith and Hope bring us a better nation.
   <entry producer="producer20" in="00:00:00.000" out="00:00:18.719">
    <property name="kdenlive:id">22</property>
    <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter42">
+   <filter id="filter46">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">affinerotate</property>
@@ -1843,7 +2013,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="transition.mirror_off">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter43">
+   <filter id="filter47">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1853,7 +2023,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter44" in="00:00:17.851" out="00:00:18.719">
+   <filter id="filter48" in="00:00:17.851" out="00:00:18.719">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1862,21 +2032,21 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist25"/>
- <tractor id="tractor12" in="00:00:00.000" out="00:01:21.521">
+ <playlist id="playlist29"/>
+ <tractor id="tractor14" in="00:00:00.000" out="00:01:21.521">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist24"/>
-  <track hide="audio" producer="playlist25"/>
+  <track hide="audio" producer="playlist28"/>
+  <track hide="audio" producer="playlist29"/>
  </tractor>
- <playlist id="playlist26">
+ <playlist id="playlist30">
   <blank length="00:00:08.976"/>
   <entry producer="producer3" in="00:00:00.000" out="00:00:43.944">
    <property name="kdenlive:id">5</property>
-   <filter id="filter45">
+   <filter id="filter49">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1886,7 +2056,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter46" out="00:00:01.435">
+   <filter id="filter50" out="00:00:01.435">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1894,7 +2064,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=0;00:00:01.435=1</property>
    </filter>
-   <filter id="filter47" in="00:00:38.372" out="00:00:43.944">
+   <filter id="filter51" in="00:00:38.372" out="00:00:43.944">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1906,7 +2076,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:12.479"/>
   <entry producer="producer24" in="00:00:00.000" out="00:00:07.674">
    <property name="kdenlive:id">26</property>
-   <filter id="filter48">
+   <filter id="filter52">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1916,7 +2086,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter49" out="00:00:00.200">
+   <filter id="filter53" out="00:00:00.200">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1928,7 +2098,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:06.006"/>
   <entry producer="producer23" in="00:00:00.000" out="00:00:35.369">
    <property name="kdenlive:id">25</property>
-   <filter id="filter50">
+   <filter id="filter54">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1938,7 +2108,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter51" in="00:00:33.500" out="00:00:35.402">
+   <filter id="filter55" in="00:00:33.500" out="00:00:35.402">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1948,22 +2118,22 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist27"/>
- <tractor id="tractor13" in="00:00:00.000" out="00:01:54.521">
+ <playlist id="playlist31"/>
+ <tractor id="tractor15" in="00:00:00.000" out="00:01:54.521">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist26"/>
-  <track hide="audio" producer="playlist27"/>
+  <track hide="audio" producer="playlist30"/>
+  <track hide="audio" producer="playlist31"/>
  </tractor>
- <playlist id="playlist28">
+ <playlist id="playlist32">
   <blank length="00:00:07.407"/>
   <entry producer="producer4" in="00:00:00.000" out="00:00:15.415">
    <property name="kdenlive:id">6</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter52" out="00:00:00.634">
+   <filter id="filter56" out="00:00:00.634">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1971,7 +2141,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=0;00:00:00.634=1</property>
    </filter>
-   <filter id="filter53">
+   <filter id="filter57">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -1986,7 +2156,7 @@ May Grace, Faith and Hope bring us a better nation.
   <entry producer="producer15" in="00:00:00.000" out="00:00:09.776">
    <property name="kdenlive:id">13</property>
    <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter54" out="00:00:00.067">
+   <filter id="filter58" out="00:00:00.067">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -1994,7 +2164,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">1</property>
     <property name="alpha">00:00:00.000=0;00:00:00.067=1</property>
    </filter>
-   <filter id="filter55">
+   <filter id="filter59">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">affinerotate</property>
@@ -2009,7 +2179,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="transition.mirror_off">1</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter56">
+   <filter id="filter60">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2023,7 +2193,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:20.921"/>
   <entry producer="producer24" in="00:00:00.000" out="00:00:07.674">
    <property name="kdenlive:id">26</property>
-   <filter id="filter57">
+   <filter id="filter61">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2033,7 +2203,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter58" out="00:00:00.267">
+   <filter id="filter62" out="00:00:00.267">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2045,7 +2215,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:08.408"/>
   <entry producer="producer25" in="00:00:00.000" out="00:00:11.778">
    <property name="kdenlive:id">27</property>
-   <filter id="filter59">
+   <filter id="filter63">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">affinerotate</property>
@@ -2060,7 +2230,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="transition.mirror_off">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter60">
+   <filter id="filter64">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2070,7 +2240,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter61" out="00:00:01.034">
+   <filter id="filter65" out="00:00:01.034">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2080,21 +2250,21 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist29"/>
- <tractor id="tractor14" in="00:00:00.000" out="00:01:33.333">
+ <playlist id="playlist33"/>
+ <tractor id="tractor16" in="00:00:00.000" out="00:01:33.333">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist28"/>
-  <track hide="audio" producer="playlist29"/>
+  <track hide="audio" producer="playlist32"/>
+  <track hide="audio" producer="playlist33"/>
  </tractor>
- <playlist id="playlist30">
+ <playlist id="playlist34">
   <blank length="00:01:33.367"/>
   <entry producer="producer27" in="00:00:00.000" out="00:00:21.154">
    <property name="kdenlive:id">29</property>
-   <filter id="filter62">
+   <filter id="filter66">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2106,70 +2276,14 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist31"/>
- <tractor id="tractor15" in="00:00:00.000" out="00:01:54.521">
+ <playlist id="playlist35"/>
+ <tractor id="tractor17" in="00:00:00.000" out="00:01:54.521">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <track producer="playlist30"/>
-  <track producer="playlist31"/>
+  <track producer="playlist34"/>
+  <track producer="playlist35"/>
  </tractor>
- <playlist id="playlist32">
-  <blank length="00:01:05.439"/>
-  <entry producer="producer24" in="00:00:00.000" out="00:00:07.674">
-   <property name="kdenlive:id">26</property>
-   <filter id="filter63">
-    <property name="rotate_center">1</property>
-    <property name="mlt_service">qtblend</property>
-    <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=-1583 -1450 6259 3573 1.000000;00:00:00.801=1572 248 75 56 1.000000;00:00:04.037=1572 248 75 56 1.000000;00:00:04.638=1929 112 75 56 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:00.801=0;00:00:04.037=0;00:00:04.638=0</property>
-    <property name="compositing">0</property>
-    <property name="distort">0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter64" out="00:00:00.234">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="alpha">00:00:00.000=0;00:00:00.234=1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
-  <blank length="00:00:05.739"/>
-  <entry producer="producer21" in="00:00:00.000" out="00:00:52.786">
-   <property name="kdenlive:id">23</property>
-   <filter id="filter65">
-    <property name="rotate_center">1</property>
-    <property name="mlt_service">qtblend</property>
-    <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=1729 224 734 398 1.000000;00:00:00.434=1600 270 425 265 1.000000;00:00:04.037|=1600 270 425 265 1.000000;00:00:05.072|=1380 249 425 265 1.000000;00:00:06.340=1188 214 425 265 1.000000;00:00:08.742=1188 214 425 265 1.000000;00:00:08.809=1050 205 425 265 1.000000;00:00:09.943=1050 205 425 265 1.000000;00:00:10.043=906 208 425 265 1.000000;00:00:10.644=906 208 425 265 1.000000;00:00:10.744=711 210 425 265 1.000000;00:00:11.979=711 210 425 265 1.000000;00:00:12.079=545 210 425 265 1.000000;00:00:12.846=545 210 425 265 1.000000;00:00:12.946=362 201 425 265 1.000000;00:00:14.882=362 201 425 265 1.000000;00:00:16.350=1019 496 425 265 1.000000;00:00:17.818=1019 496 425 265 1.000000;00:00:19.019=861 493 425 265 1.000000;00:00:26.627=861 493 425 265 1.000000;00:00:33.200=438 497 425 265 1.000000;00:00:34.334=438 497 425 265 1.000000;00:00:38.238=-316 631 425 265 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:00.434=0;00:00:04.037|=0;00:00:05.072|=0;00:00:06.340=0;00:00:08.742=0;00:00:08.809=0;00:00:09.943=0;00:00:10.043=0;00:00:10.644=0;00:00:10.744=0;00:00:11.979=0;00:00:12.079=0;00:00:12.846=0;00:00:12.946=0;00:00:14.882=0;00:00:16.350=0;00:00:17.818=0;00:00:19.019=0;00:00:26.627=0;00:00:33.200=0;00:00:34.334=0;00:00:38.238=0</property>
-    <property name="compositing">0</property>
-    <property name="distort">0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter66" in="00:00:51.151" out="00:00:52.819">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:01.668=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
- </playlist>
- <playlist id="playlist33"/>
- <tractor id="tractor16" in="00:00:00.000" out="00:02:11.678">
-  <property name="kdenlive:trackheight">69</property>
-  <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
-  <property name="kdenlive:thumbs_format"/>
-  <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist32"/>
-  <track hide="audio" producer="playlist33"/>
- </tractor>
- <playlist id="playlist34">
+ <playlist id="playlist36">
   <blank length="00:01:05.439"/>
   <entry producer="producer24" in="00:00:00.000" out="00:00:07.674">
    <property name="kdenlive:id">26</property>
@@ -2177,8 +2291,8 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=-3958 -1352 8795 4561 1.000000;00:00:00.834=451 786 53 79 1.000000;00:00:03.804=451 786 53 79 1.000000;00:00:04.004=-73 783 53 79 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:00.834=0;00:00:03.804=0;00:00:04.004=0</property>
+    <property name="rect">00:00:00.000=-1583 -1450 6259 3573 1.000000;00:00:00.801=1572 248 75 56 1.000000;00:00:04.037=1572 248 75 56 1.000000;00:00:04.638=1929 112 75 56 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:00.801=0;00:00:04.037=0;00:00:04.638=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
@@ -2192,10 +2306,66 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
+  <blank length="00:00:05.739"/>
+  <entry producer="producer21" in="00:00:00.000" out="00:00:52.786">
+   <property name="kdenlive:id">23</property>
+   <filter id="filter69">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=1729 224 734 398 1.000000;00:00:00.434=1600 270 425 265 1.000000;00:00:04.037|=1600 270 425 265 1.000000;00:00:05.072|=1380 249 425 265 1.000000;00:00:06.340=1188 214 425 265 1.000000;00:00:08.742=1188 214 425 265 1.000000;00:00:08.809=1050 205 425 265 1.000000;00:00:09.943=1050 205 425 265 1.000000;00:00:10.043=906 208 425 265 1.000000;00:00:10.644=906 208 425 265 1.000000;00:00:10.744=711 210 425 265 1.000000;00:00:11.979=711 210 425 265 1.000000;00:00:12.079=545 210 425 265 1.000000;00:00:12.846=545 210 425 265 1.000000;00:00:12.946=362 201 425 265 1.000000;00:00:14.882=362 201 425 265 1.000000;00:00:16.350=1019 496 425 265 1.000000;00:00:17.818=1019 496 425 265 1.000000;00:00:19.019=861 493 425 265 1.000000;00:00:26.627=861 493 425 265 1.000000;00:00:33.200=438 497 425 265 1.000000;00:00:34.334=438 497 425 265 1.000000;00:00:38.238=-316 631 425 265 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:00.434=0;00:00:04.037|=0;00:00:05.072|=0;00:00:06.340=0;00:00:08.742=0;00:00:08.809=0;00:00:09.943=0;00:00:10.043=0;00:00:10.644=0;00:00:10.744=0;00:00:11.979=0;00:00:12.079=0;00:00:12.846=0;00:00:12.946=0;00:00:14.882=0;00:00:16.350=0;00:00:17.818=0;00:00:19.019=0;00:00:26.627=0;00:00:33.200=0;00:00:34.334=0;00:00:38.238=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter70" in="00:00:51.151" out="00:00:52.819">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:01.668=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist37"/>
+ <tractor id="tractor18" in="00:00:00.000" out="00:02:11.678">
+  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format"/>
+  <property name="kdenlive:audio_rec"/>
+  <track hide="audio" producer="playlist36"/>
+  <track hide="audio" producer="playlist37"/>
+ </tractor>
+ <playlist id="playlist38">
+  <blank length="00:01:05.439"/>
+  <entry producer="producer24" in="00:00:00.000" out="00:00:07.674">
+   <property name="kdenlive:id">26</property>
+   <filter id="filter71">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=-3958 -1352 8795 4561 1.000000;00:00:00.834=451 786 53 79 1.000000;00:00:03.804=451 786 53 79 1.000000;00:00:04.004=-73 783 53 79 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:00.834=0;00:00:03.804=0;00:00:04.004=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter72" out="00:00:00.234">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="alpha">00:00:00.000=0;00:00:00.234=1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
   <blank length="00:00:05.539"/>
   <entry producer="producer22" in="00:00:00.000" out="00:00:52.986">
    <property name="kdenlive:id">24</property>
-   <filter id="filter69">
+   <filter id="filter73">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2205,7 +2375,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter70" in="00:00:51.118" out="00:00:53.020">
+   <filter id="filter74" in="00:00:51.118" out="00:00:53.020">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2215,21 +2385,21 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist35"/>
- <tractor id="tractor17" in="00:00:00.000" out="00:02:11.678">
-  <property name="kdenlive:trackheight">69</property>
+ <playlist id="playlist39"/>
+ <tractor id="tractor19" in="00:00:00.000" out="00:02:11.678">
+  <property name="kdenlive:trackheight">42</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:collapsed">28</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist34"/>
-  <track hide="audio" producer="playlist35"/>
+  <track hide="audio" producer="playlist38"/>
+  <track hide="audio" producer="playlist39"/>
  </tractor>
- <playlist id="playlist36">
+ <playlist id="playlist40">
   <blank length="00:00:12.579"/>
   <entry producer="producer5" in="00:00:00.000" out="00:00:14.481">
    <property name="kdenlive:id">7</property>
-   <filter id="filter71">
+   <filter id="filter75">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2239,7 +2409,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter72" in="00:00:13.780" out="00:00:14.481">
+   <filter id="filter76" in="00:00:13.780" out="00:00:14.481">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2251,7 +2421,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:07.608"/>
   <entry producer="producer14" in="00:00:00.000" out="00:00:09.776">
    <property name="kdenlive:id">12</property>
-   <filter id="filter73">
+   <filter id="filter77">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2261,7 +2431,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter74" out="00:00:00.067">
+   <filter id="filter78" out="00:00:00.067">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2273,7 +2443,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:04.705"/>
   <entry producer="producer13" in="00:00:00.000" out="00:00:48.649">
    <property name="kdenlive:id">17</property>
-   <filter id="filter75">
+   <filter id="filter79">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2285,17 +2455,17 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist37"/>
- <tractor id="tractor18" in="00:00:00.000" out="00:01:37.871">
+ <playlist id="playlist41"/>
+ <tractor id="tractor20" in="00:00:00.000" out="00:01:37.871">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist36"/>
-  <track hide="audio" producer="playlist37"/>
+  <track hide="audio" producer="playlist40"/>
+  <track hide="audio" producer="playlist41"/>
  </tractor>
- <producer id="producer37" in="00:00:00.000" out="00:01:04.571">
+ <producer id="producer39" in="00:00:00.000" out="00:01:04.571">
   <property name="length">1936</property>
   <property name="eof">pause</property>
   <property name="resource">clips/pacMan.webm</property>
@@ -2364,12 +2534,12 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="set.test_image">0</property>
   <property name="meta.media.has_b_frames">0</property>
  </producer>
- <playlist id="playlist38">
+ <playlist id="playlist42">
   <blank length="00:00:25.592"/>
-  <entry producer="producer37" in="00:00:22.689" out="00:00:32.266">
+  <entry producer="producer39" in="00:00:22.689" out="00:00:32.266">
    <property name="kdenlive:id">10</property>
    <property name="kdenlive:activeeffect">3</property>
-   <filter id="filter76">
+   <filter id="filter80">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -2385,7 +2555,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter77">
+   <filter id="filter81">
     <property name="mlt_service">crop</property>
     <property name="kdenlive_id">crop</property>
     <property name="top">220</property>
@@ -2397,7 +2567,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="use_profile">0</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter78">
+   <filter id="filter82">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2407,7 +2577,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter79">
+   <filter id="filter83">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.alphagrad</property>
     <property name="kdenlive_id">frei0r.alphagrad</property>
@@ -2419,7 +2589,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="Operation">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter80" in="00:00:22.689" out="00:00:24.858">
+   <filter id="filter84" in="00:00:22.689" out="00:00:24.858">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2427,7 +2597,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
     <property name="alpha">00:00:00.000=0;00:00:02.169=1</property>
    </filter>
-   <filter id="filter81" in="00:00:30.430" out="00:00:32.266">
+   <filter id="filter85" in="00:00:30.430" out="00:00:32.266">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2439,7 +2609,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:07.741"/>
   <entry producer="producer8" in="00:00:00.000" out="00:00:02.936">
    <property name="kdenlive:id">14</property>
-   <filter id="filter82">
+   <filter id="filter86">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2449,7 +2619,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter83">
+   <filter id="filter87">
     <property name="mirror">horizontal</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -2459,49 +2629,12 @@ May Grace, Faith and Hope bring us a better nation.
   </entry>
   <entry producer="producer8" in="00:00:00.000" out="00:00:14.481">
    <property name="kdenlive:id">14</property>
-   <filter id="filter84">
+   <filter id="filter88">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
     <property name="rect">00:00:00.000=974 720 703 393 1.000000;00:00:00.133=1046 619 703 393 1.000000;00:00:00.300=938 720 703 393 1.000000;00:00:00.501=1039 619 703 393 1.000000;00:00:00.734=931 741 703 393 1.000000;00:00:01.001=1075 626 703 393 1.000000;00:00:01.335=1219 741 703 393 1.000000;00:00:01.635=1363 612 703 393 1.000000;00:00:01.969=1586 713 703 393 1.000000;00:00:02.269=1446 624 703 393 1.000000;00:00:02.736=1193 730 703 393 1.000000;00:00:03.103=940 598 703 393 1.000000;00:00:03.403=787 709 703 393 1.000000;00:00:03.570=839 651 703 393 1.000000;00:00:03.904=1024 540 703 393 1.000000;00:00:04.171=1235 577 703 393 1.000000;00:00:04.538=1378 724 703 393 1.000000;00:00:05.072=1378 724 703 393 1.000000;00:00:05.405=1341 532 703 393 1.000000;00:00:05.739=1378 724 703 393 1.000000;00:00:06.006=1378 724 703 393 1.000000;00:00:10.644=1378 724 703 393 1.000000</property>
     <property name="rotation">00:00:00.000=-360;00:00:00.133=31;00:00:00.300=0;00:00:00.501=31;00:00:00.734=0;00:00:01.001=0;00:00:01.335=0;00:00:01.635=0;00:00:01.969=0;00:00:02.269=0;00:00:02.736=0;00:00:03.103=0;00:00:03.403=0;00:00:03.570=28;00:00:03.904=135;00:00:04.171=213;00:00:04.538=360;00:00:05.072=360;00:00:05.405=178;00:00:05.739=2;00:00:06.006=2;00:00:10.644=24</property>
-    <property name="compositing">0</property>
-    <property name="distort">0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter85">
-    <property name="mirror">horizontal</property>
-    <property name="mlt_service">mirror</property>
-    <property name="kdenlive_id">mirror</property>
-    <property name="reverse">0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter86" in="00:00:11.245" out="00:00:14.481">
-    <property name="start">1</property>
-    <property name="level">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="alpha">00:00:00.000=1;00:00:03.237=0</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-   <filter id="filter87">
-    <property name="version">0.1</property>
-    <property name="mlt_service">frei0r.distort0r</property>
-    <property name="kdenlive_id">frei0r.distort0r</property>
-    <property name="Amplitude">00:00:00.000=0;00:00:11.378=0;00:00:13.180=-0.833</property>
-    <property name="Frequency">00:00:00.000=0;00:00:11.378=0;00:00:13.180=0.185</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
-  </entry>
-  <blank length="00:00:09.743"/>
-  <entry producer="producer16" in="00:00:00.000" out="00:00:25.492">
-   <property name="kdenlive:id">18</property>
-   <filter id="filter88">
-    <property name="rotate_center">1</property>
-    <property name="mlt_service">qtblend</property>
-    <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.000=931 298 52 20 1.000000;00:00:06.974=860 266 323 193 1.000000;00:00:17.351=860 266 323 193 1.000000;00:00:17.718=757 228 157 146 1.000000</property>
-    <property name="rotation">00:00:00.000=0;00:00:06.974=0;00:00:17.351=0;00:00:17.718=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
@@ -2513,7 +2646,44 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="reverse">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter90">
+   <filter id="filter90" in="00:00:11.245" out="00:00:14.481">
+    <property name="start">1</property>
+    <property name="level">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="alpha">00:00:00.000=1;00:00:03.237=0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter91">
+    <property name="version">0.1</property>
+    <property name="mlt_service">frei0r.distort0r</property>
+    <property name="kdenlive_id">frei0r.distort0r</property>
+    <property name="Amplitude">00:00:00.000=0;00:00:11.378=0;00:00:13.180=-0.833</property>
+    <property name="Frequency">00:00:00.000=0;00:00:11.378=0;00:00:13.180=0.185</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+  </entry>
+  <blank length="00:00:09.743"/>
+  <entry producer="producer16" in="00:00:00.000" out="00:00:25.492">
+   <property name="kdenlive:id">18</property>
+   <filter id="filter92">
+    <property name="rotate_center">1</property>
+    <property name="mlt_service">qtblend</property>
+    <property name="kdenlive_id">qtblend</property>
+    <property name="rect">00:00:00.000=931 298 52 20 1.000000;00:00:06.974=860 266 323 193 1.000000;00:00:17.351=860 266 323 193 1.000000;00:00:17.718=757 228 157 146 1.000000</property>
+    <property name="rotation">00:00:00.000=0;00:00:06.974=0;00:00:17.351=0;00:00:17.718=0</property>
+    <property name="compositing">0</property>
+    <property name="distort">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter93">
+    <property name="mirror">horizontal</property>
+    <property name="mlt_service">mirror</property>
+    <property name="kdenlive_id">mirror</property>
+    <property name="reverse">0</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter94">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.distort0r</property>
     <property name="kdenlive_id">frei0r.distort0r</property>
@@ -2522,10 +2692,10 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <blank length="00:01:51.685"/>
+  <blank length="00:03:10.878"/>
   <entry producer="producer10" in="00:00:00.000" out="00:00:31.064">
    <property name="kdenlive:id">16</property>
-   <filter id="filter91" in="00:00:28.028" out="00:00:31.064">
+   <filter id="filter95" in="00:00:28.028" out="00:00:31.064">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2533,7 +2703,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="alpha">00:00:00.000=1;00:00:03.036=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter92" out="00:00:02.202">
+   <filter id="filter96" out="00:00:02.202">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2543,17 +2713,17 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist39"/>
- <tractor id="tractor19" in="00:00:00.000" out="00:03:58.458">
+ <playlist id="playlist43"/>
+ <tractor id="tractor21" in="00:00:00.000" out="00:05:17.618">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist38"/>
-  <track hide="audio" producer="playlist39"/>
+  <track hide="audio" producer="playlist42"/>
+  <track hide="audio" producer="playlist43"/>
  </tractor>
- <producer id="producer38" in="00:00:00.000" out="00:00:37.938">
+ <producer id="producer40" in="00:00:00.000" out="00:00:37.938">
   <property name="length">1138</property>
   <property name="eof">pause</property>
   <property name="resource">1.600000:clips/boing2.webm</property>
@@ -2607,11 +2777,11 @@ May Grace, Faith and Hope bring us a better nation.
   <property name="meta.media.progressive">1</property>
   <property name="meta.media.has_b_frames">0</property>
  </producer>
- <playlist id="playlist40">
+ <playlist id="playlist44">
   <blank length="00:00:16.283"/>
-  <entry producer="producer38" in="00:00:23.056" out="00:00:34.434">
+  <entry producer="producer40" in="00:00:23.056" out="00:00:34.434">
    <property name="kdenlive:id">8</property>
-   <filter id="filter93">
+   <filter id="filter97">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -2627,7 +2797,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">1</property>
    </filter>
-   <filter id="filter94">
+   <filter id="filter98">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2640,7 +2810,7 @@ May Grace, Faith and Hope bring us a better nation.
   </entry>
   <entry producer="producer7" in="00:00:00.000" out="00:00:08.408">
    <property name="kdenlive:id">9</property>
-   <filter id="filter95" in="00:00:06.840" out="00:00:08.408">
+   <filter id="filter99" in="00:00:06.840" out="00:00:08.408">
     <property name="start">1</property>
     <property name="level">1</property>
     <property name="mlt_service">brightness</property>
@@ -2652,7 +2822,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:20.254"/>
   <entry producer="producer16" in="00:00:00.000" out="00:00:01.602">
    <property name="kdenlive:id">18</property>
-   <filter id="filter96">
+   <filter id="filter100">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2662,7 +2832,7 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter97">
+   <filter id="filter101">
     <property name="mirror">horizontal</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -2673,7 +2843,7 @@ May Grace, Faith and Hope bring us a better nation.
   <blank length="00:00:12.145"/>
   <entry producer="producer16" in="00:00:00.000" out="00:00:20.721">
    <property name="kdenlive:id">18</property>
-   <filter id="filter98">
+   <filter id="filter102">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -2683,14 +2853,14 @@ May Grace, Faith and Hope bring us a better nation.
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter99">
+   <filter id="filter103">
     <property name="mirror">horizontal</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
     <property name="reverse">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter100">
+   <filter id="filter104">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.distort0r</property>
     <property name="kdenlive_id">frei0r.distort0r</property>
@@ -2700,17 +2870,17 @@ May Grace, Faith and Hope bring us a better nation.
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist41"/>
- <tractor id="tractor20" in="00:00:00.000" out="00:01:30.898">
+ <playlist id="playlist45"/>
+ <tractor id="tractor22" in="00:00:00.000" out="00:01:30.898">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="audio" producer="playlist40"/>
-  <track hide="audio" producer="playlist41"/>
+  <track hide="audio" producer="playlist44"/>
+  <track hide="audio" producer="playlist45"/>
  </tractor>
- <tractor id="tractor21" in="00:00:00.000" out="00:20:39.473">
+ <tractor id="tractor23" in="00:00:00.000" out="00:21:56.223">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
@@ -2733,6 +2903,8 @@ May Grace, Faith and Hope bring us a better nation.
   <track producer="tractor18"/>
   <track producer="tractor19"/>
   <track producer="tractor20"/>
+  <track producer="tractor21"/>
+  <track producer="tractor22"/>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
@@ -2764,8 +2936,8 @@ May Grace, Faith and Hope bring us a better nation.
    <property name="sum">1</property>
   </transition>
   <transition id="transition3" in="00:01:26.260" out="00:01:58.525">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
+   <property name="a_track">5</property>
+   <property name="b_track">6</property>
    <property name="geometry">00:00:00.000=0% 0% 100% 100% 100%;00:00:32.266=0% 0% 100% 100% 0%</property>
    <property name="factory">loader</property>
    <property name="aligned">0</property>
@@ -2939,21 +3111,39 @@ May Grace, Faith and Hope bring us a better nation.
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter101">
+  <transition id="transition22">
+   <property name="a_track">0</property>
+   <property name="b_track">22</property>
+   <property name="version">0.1</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <transition id="transition23">
+   <property name="a_track">0</property>
+   <property name="b_track">23</property>
+   <property name="version">0.1</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+  </transition>
+  <filter id="filter105">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter102">
+  <filter id="filter106">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter103">
+  <filter id="filter107">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="peak">1</property>
